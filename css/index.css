@@ -1,3 +1,6 @@
+body{
+  margin: 0px;
+}
 
 #nav_content{
     background-color: #650e79;
@@ -17,7 +20,7 @@
     margin-left: 2em;
   }
   
-  #nav_content h1, a span, a span:link, a span:visited, a span:focus, a span:active{
+  #nav_content h1, a span, a span:link, a span:visited, a span:focus, a span:active, #games_preview h2{
     font-weight: bold;
     background-image: linear-gradient(
       to top,
@@ -104,8 +107,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px 0px;
   }
-  
+
+  #game_selector img{
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+  }
   
   #game_list{
     display: grid;
@@ -119,7 +128,6 @@
     width: min-content;
     margin-bottom: 2px;
   }
-  
   
   .game a{
     font-size: xx-large;
