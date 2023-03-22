@@ -11,6 +11,8 @@ body{
     width: 100%;
     border-bottom: solid 10px #ffda59;
   }
+
+  
   
   #nav_content img{
     position: absolute;
@@ -20,7 +22,7 @@ body{
     margin-left: 2em;
   }
   
-  #nav_content h1, a span, a span:link, a span:visited, a span:focus, a span:active, #games_preview h2{
+  #nav_content h1, a span, a span:link, a span:visited, a span:focus, a span:active, #games_preview h1{
     font-weight: bold;
     background-image: linear-gradient(
       to top,
@@ -95,6 +97,8 @@ body{
   
   #games_preview{
     background-color: #a2377f;
+    background-image: url("../assets/background.png");
+    background-size: 100% 100%;
     width: 100%;
     height: 60em;
     display: flex;
