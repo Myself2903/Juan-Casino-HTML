@@ -10,6 +10,7 @@ body{
     align-items: center;
     width: 100%;
     border-bottom: solid 10px #ffda59;
+    z-index: 2;
   }
 
   
@@ -71,9 +72,16 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #562d79;
-    height: 60em;
+    background-image: url("../assets/background.png");
+    background-size: 100% 100%;
+    height: 50em;
     width: 100%;
     border-bottom: solid 20px #ffda59;
+  }
+
+  #main_page img{
+    width: 60em;
+    height: 60em;
   }
   
   #confetti-canvas{
@@ -83,7 +91,8 @@ body{
   
   
   #main_page button{
-    margin-top: 1em;
+    position: absolute;
+    top: 25em;
   }
   
   button{
@@ -98,6 +107,9 @@ body{
   
   button:hover{
     cursor: pointer;
+    background-color: #0f0f0f;
+    border: #0f0f0f;
+    color: gold;
   }
   
   #games_preview{
@@ -105,7 +117,7 @@ body{
     background-image: url("../assets/background.png");
     background-size: 100% 100%;
     width: 100%;
-    height: 60em;
+    height: 50em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,6 +126,7 @@ body{
 
   #games_preview h1{
     font-size: 60px;
+    margin: 0.5em;
   }
   
   #game_selector{
@@ -125,20 +138,30 @@ body{
 
   #game_selector img{ 
     border-radius: 25px;
-    height: 10em;
-    width: 10em;
+    height: 6em;
+    width: 6em;
   }
   
   #game_list li{
     display: inline-flex;
     margin: 0 4em;
+    margin: 0px;
   }
 
   #game_list a{
     text-align: center;
     font-size: xx-large;
+    margin: 50px;
+  }
+
+  #game_list a:hover{
+    border-radius: 25px;
+    border: solid goldenrod 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    margin: 42px;
   }
   
   #register_button{
-    margin-top: 1.5em;
+    margin-top: 0.5em;
   }
