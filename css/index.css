@@ -76,6 +76,11 @@ body{
     border-bottom: solid 20px #ffda59;
   }
   
+  #confetti-canvas{
+    width: 100%;
+    height:auto;
+  }
+  
   
   #main_page button{
     margin-top: 1em;
